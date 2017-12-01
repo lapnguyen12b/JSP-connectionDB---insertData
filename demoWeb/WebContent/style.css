@@ -1,0 +1,125 @@
+*{
+	margin:0;
+	padding: 0;
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url("./Jellyka_Castle _s_Queen.ttf");
+}
+a{
+	font-family: myFirstFont;
+}
+.menu-left{
+	width: 16%;
+    background: #83d885;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.container-right {
+    width: 84%;
+    background: #3d7eb7;
+    height: 38px;
+    /* position: absolute; */
+    top: 0px;
+    position: absolute;
+    right: 0px;
+}
+.menu-left-ul{
+	/*margin-left: -40px !important;*/
+	margin-top: 0px;
+}
+.menu-left-ul > li{
+	list-style: none;
+	padding: 10px 30px;
+	border-bottom: solid 1px #fff;
+}
+.menu-left-ul > li > a{
+	text-decoration: none;
+	color:#111;
+}
+.menu-left-ul > li:hover{
+	background: #c3dac3;
+}
+.menu-ul-right > li{
+	float :left;
+	padding: 10px 60px;
+	list-style: none;
+}
+.menu-ul-right > li > a{
+	text-decoration: none;
+}
+.menu-ul-right > li:hover{
+	background: #fff;
+}
+.banner{
+    background: #ccc;
+    margin-top: 38px;
+    height: 274px;    
+}
+/*#bannerImg{
+	border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(img/border.png) 30 round;
+}*/
+.banner-hover{
+	width: 30%;
+	height: 60%;
+	/*margin-left: 380px;*/
+	margin-top: 50px
+}
+.banner-hover:hover > .img-banner{
+	opacity: 0;
+}
+.slogan{
+	text-align: center;
+}
+.col4{
+	width: 28%;
+    margin-left: 20px;
+    margin-top: 20px;
+    float:left;
+}
+.text-col4{
+	text-align: left;
+    height: 88px;
+    width: 128px;
+    margin-top: -90px;
+    margin-left: 153px;
+    float: right;
+}
+.footer{
+	border-top: solid 1px #111;
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+    margin-left: 219px;
+    width: 100%;
+    float: right;
+    font-size: 12px;
+    padding: 5px;
+}
+.dropdow{
+	position: absolute;
+	z-index: 1;
+	margin-left: -60px;
+	opacity: 0;
+	margin-top:10px;
+}
+.dropdow > li:hover{
+	background: #fff;
+}
+.dropdow > li {
+    list-style: none;
+    padding: 12px 87px;
+    text-align: center;
+    background: #3d7eb7;
+    border-top: 1px solid #111;
+}
+.menu-ul-right > li:hover > .dropdow{
+	opacity: 1;
+}
+.col4 > img{
+	float:left;
+}
